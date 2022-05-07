@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         
         <link rel="stylesheet" href="css/style.css">
 
@@ -25,6 +26,7 @@
                         </div> 
                     </div> 
                 </div>
+            
                 <div class="main-header">
                     <div class="container">
                         <div id="menu-wrapper">
@@ -50,25 +52,47 @@
                     </div> 
                 </div> 
             </div> 
-            <div class="site-slider">
-                <div class="slider">
-                    <div class="flexslider">
-                        <ul class="slides">
-                            <li>
-                                <div class="overlay"></div>
-                                <img src="pics/images/slide1.jpg" alt="">
-                                <div class="slider-caption visible-md visible-lg">
-                                    <h2>Lorem ipsum dolor sit.</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-                                    <a href="#" class="slider-btn">Let us design!</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+            
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-            </div> 
-        </div> 
-
+                <div class="carousel-inner overlay">
+                  <div class="carousel-item active overlay">
+                    <img src="/pics/images/slide1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block slider-caption visible-md visible-lg">
+                        <h2>Digital Marketing</h2>
+                        <p>more visitors to your website</p>
+                        <a href="#" class="slider-btn">Let us design!</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item overlay">
+                    <img src="/pics/images/slide2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block slider-caption visible-md visible-lg">
+                      <h2>Second slide label</h2>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item overlay">
+                    <img src="pics/images/slide3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block slider-caption visible-md visible-lg" >
+                      <h2>Third slide label</h2>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        
 
         <div class="content-section" id="services">
             <div class="container">
@@ -181,7 +205,7 @@
                                 </a>
                             </div> 
                         </div> 
-                    </div> <
+                    </div> 
                     <div class="portfolio-item col-md-3 col-sm-6">
                         <div class="portfolio-thumb">
                             <img src="pics/images/gallery/p8.jpg" alt="">
@@ -377,8 +401,8 @@
                     	</p>
                         <ul class="contact-info">
                             <li>Phone: 313-6071001</li>
-                            <li>Email: <a href="mailto:info@company.com">info@company.com</a></li>
-                            <li>Address: 880 De Best Studio, Fork Street, San Francisco</li>
+                            <li>Email: <a href="#">info@company.com</a></li>
+                            <li>Address: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, iusto!</li>
                         </ul>
                         <br><br>
                     </div>
